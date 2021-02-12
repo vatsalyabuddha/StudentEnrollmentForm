@@ -1,0 +1,112 @@
+body{
+    position:relative;
+    min-height:44rem;
+    
+}
+
+/*header , Footer*/
+.navbar-box, .footer-box {
+    background-color: #16c79a;
+    border: 2px solid grey;
+    color: white;
+    text-align: center;
+}
+
+.footer-box {
+    height: 30px;
+    justify-content: space-around;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.container{
+    display:contents ;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration:none;
+    padding: 100px;
+}
+
+/*Box Form*/
+.box-of-form {
+    margin: 50px 40px;
+}
+
+.form-control {
+    max-width: 250px;
+}
+
+.btn {
+    margin: 0px 10px 0px 10px;
+    padding: 10px 20px;
+    border-radius: 6%;
+    
+}
+.btn:hover{
+    transition: all 0.5s ease-out;
+    background-color: #16c79a;
+    color: white;
+}
+
+
+/*Vertical Line*/
+.vl {
+    border-left: 2px solid #65d6ce;
+    position: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+
+/*Box Data*/
+.data-box{
+    padding:10px 40px 40px 40px;
+}
+.data-header{
+    align-items:baseline;
+    margin-bottom:40px;
+    text-align:center;
+}
+.table-head-data {
+    background-color: #96bb7c;
+    color: white;
+}
+#student-table{
+    border: 1px solid black;
+}
+
+
+
+.student-table-newrow-dark{
+    background-color: #d6efc7;
+}
+.student-table-newrow-light{
+    background-color: whitesmoke;
+}
+.student-image-container{
+    object-fit: contain;
+}
+
+.student-data-tag
+{
+    margin: 0px 0px 0px 0px;
+    color: black;
+}
+.student-data-link-tag{
+    margin: 0px 0px 0px 0px;
+    color: blue;
+    text-decoration: underline;
+}
+.name-bold{
+    font-weight: 600;
+}
+.enroll-student-image{
+    width:100px;
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+    
